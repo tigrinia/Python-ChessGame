@@ -437,7 +437,6 @@ class Gameplay:
                                         self.listOfMoves.pop(self.listOfMoves.index(i))
                         
                         else:
-                            print('White is checked')
                             if len(self.listOfMoves) > 0:
                                 listOfLegalmove = []
                                 for mo in self.listOfMoves:
@@ -484,7 +483,6 @@ class Gameplay:
                                         self.listOfMoves.pop(self.listOfMoves.index(i))
                         
                         else:
-                            print('Black is checked')
                             if len(self.listOfMoves) > 0:
                                 listOfLegalmoves = []
                                 for m in self.listOfMoves:
